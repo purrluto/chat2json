@@ -1,0 +1,29 @@
+# pluto purrluto's chat2json python script
+
+this is my handy-dandy chatlog message parser since i really didn't want to do all of that by hand
+
+## formatting
+this is meant to basically take chat msg rp things and convert it into json.. the format goes like this:
+
+> - YYYY-MM-DD -
+> **NAME** YYYY-MM-DDD, HH:MM
+> message content (as long as you want)
+
+it doesn't work with other ones but it's nice for #me
+
+## inputs and outputs
+you put in a formatted txt file (can be absolute filepath i believe)
+you get out a json file
+wow!
+
+## running the thing
+this is on python 3.10.12!
+to run the command, just do:
+
+> python3 --version filename.txt
+
+### todo
+
+this part isn't important but i might expand this later. would be nice to have something that fixes the json formats for everything.
+also need to add in erroring for invalid filenames
+will also add in a tutorial for adding it to the path in windows b/c i think that makes it easier to use
