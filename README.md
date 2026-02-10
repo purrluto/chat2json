@@ -41,10 +41,20 @@ wow!
 this is on python 3.10.12!
 to run the command, just do:
 
-> python3 --version filename.txt
+> python3 chat2json.py filename.txt
+or
+> python chat2json.py filename.txt
+
+however with the above you do have to have the absolute filepath and run it in the project folder...
+
+if you wanna get real fancy with it, u can add it to the environment variables so u can just do
+> chat2json filename.txt
+from the directories you have your file in!! handy!
 
 ### todo
 
 this part isn't important but i might expand this later. would be nice to have something that fixes the json formats for everything.
 also need to add in erroring for invalid filenames
 will also add in a tutorial for adding it to the path in windows b/c i think that makes it easier to use
+
+finally, maybe i'll do a bulk convert at some point and add some like argument explanation things, idk
