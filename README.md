@@ -42,13 +42,17 @@ this is on python 3.10.12!
 to run the command, just do:
 
 > python3 chat2json.py filename.txt
+
 or
+
 > python chat2json.py filename.txt
 
 however with the above you do have to have the absolute filepath and run it in the project folder...
 
 if you wanna get real fancy with it, u can add it to the environment variables so u can just do
+
 > chat2json filename.txt
+
 from the directories you have your file in!! handy!
 
 ### todo
