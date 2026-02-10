@@ -5,9 +5,30 @@ this is my handy-dandy chatlog message parser since i really didn't want to do a
 ## formatting
 this is meant to basically take chat msg rp things and convert it into json.. the format goes like this:
 
-> - YYYY-MM-DD -
-> **NAME** YYYY-MM-DDD, HH:MM
-> message content (as long as you want)
+```
+- YYYY-MM-DD -
+NAME YYYY-MM-DDD, HH:MM
+message content (as long as you want)
+
+NAME YYYY-MM-DDD, HH:MM
+message content (as long as you want)
+
+...
+
+NAME YYYY-MM-DDD, HH:MM
+message content (as long as you want)
+```
+
+the - YYYY-MM-DD - is used to figure out if it's a new day for the json
+
+this converts it into this json format:
+```json
+"newday": true/false,
+"name": "NAME",
+"date": "YYYY-MM-DD",
+"time": "HH:MM"
+"msg": "message content (as long as you want)"
+```
 
 it doesn't work with other ones but it's nice for #me
 
